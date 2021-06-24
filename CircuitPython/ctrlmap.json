@@ -1,0 +1,114 @@
+{
+	"version": "1.0",
+	"0": {
+		"knob1": {
+			"left": {
+				"type": null,
+				"actions": [
+					{
+						"device": "ConsumerControl",
+						"name": "Volume Down",
+						"key" : 234
+					}
+				]
+			},
+			"right": {
+				"type": null,
+				"actions": [
+					{
+						"device": "ConsumerControl",
+						"name": "Volume Down",
+						"key" : 233
+					}
+				]
+			},
+			"button": {
+				"type": "release",
+				"actions": [
+					{
+						"device": "ConsumerControl",
+						"name": "Mute/Unmute",
+						"key" : 226
+					}
+				]
+			}
+		},
+		"keypad": {
+			"0": {
+				"type": "release",
+				"actions": [
+					{
+						"device": "Keyboard",
+						"name": "Copy",
+						"key" : [ 224, 6 ]
+					}
+				]
+			},
+			"1": {
+				"type": "release",
+				"actions": [
+					{
+						"device": "Keyboard",
+						"name": "Paste",
+						"key" : [ 224, 25 ]
+					}
+				]
+			}	
+		}
+	},
+	"1": {
+		"knob1": {
+			"left": {
+				"type": null,
+				"actions": [
+					{
+						"device": "ConsumerControl",
+						"name": "Prev Track",
+						"key" : 182
+					}
+				]
+			},
+			"right": {
+				"type": null,
+				"actions": [
+					{
+						"device": "ConsumerControl",
+						"name": "Next Track",
+						"key" : 181
+					}
+				]
+			},
+			"button": {
+				"type": "release",
+				"actions": [
+					{
+						"device": "ConsumerControl",
+						"name": "Play/Pause",
+						"key" : 205
+					}
+				]
+			}
+		},
+		"keypad": {
+			"0": {
+				"actions": [
+					{
+						"device": "Keyboard",
+						"name": "Alt-Tab",
+						"key" : [ 226, 43 ]
+					}
+				]
+			},
+			"1": {
+				"type": "release",
+				"actions": [
+					{
+						"device": "Keyboard",
+						"name": "Win-Key",
+						"key" : [ 227 ]
+					}
+				]
+			}	
+		}
+	}
+}
